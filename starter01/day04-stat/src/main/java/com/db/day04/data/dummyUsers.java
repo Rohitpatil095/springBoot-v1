@@ -1,7 +1,6 @@
 package com.db.day04.data;
 
 public class dummyUsers {
-	
 	public String userName;
 	public String userPassword;
 	
@@ -32,6 +31,4 @@ public class dummyUsers {
 	}
 	
 	
-	
-
 }
