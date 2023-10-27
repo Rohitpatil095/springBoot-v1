@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC 
+  "-//Hibernate/Hibernate Configuration DTD 3.0//EN" 
+  "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.driver_class">com.mysql.cj.jdbc.driver</property>
+		<property name="connection.url">jdbc://mysql:localhost/hbDb</property>
+		<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">Rohit@099</property>
+		<property name="show_sql">true</property>
+	</session-factory>
+
+
+	<mapping class="org.starter.hibernate.HibernateTestSkills.entity.Student"></mapping>
+	
+</hibernate-configuration>

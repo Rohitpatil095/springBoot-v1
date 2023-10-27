@@ -8,10 +8,10 @@
 		<version>3.1.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.starter.day05-jdbc-01</groupId>
-	<artifactId>day05-jdbs-trial-01</artifactId>
+	<groupId>com.starter.day08.adl</groupId>
+	<artifactId>day08-rest-prDev01</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>day05-jdbs-trial-01</name>
+	<name>day08-rest-prDev01</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -21,9 +21,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
