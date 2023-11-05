@@ -1,0 +1,1 @@
+insert into vendor("code","name","type","email","phone","address") values("j","jerry","contract","j@pcontract.com","35656573","malivan street santorio");
